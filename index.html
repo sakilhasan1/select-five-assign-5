@@ -40,9 +40,13 @@
                     <div class="card">
                         <img src="images/foshua kimmicg.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Foshua kimmicg</h5>
+                            <h5 id="foshua">Foshua kimmicg</h5>
                             <p class="card-text">56Goals . 120Assist</p>
-                            <a href="#" class="btn btn-primary px-5">Select </a>
+                            <button id="btn-foshua"
+                                class="bg-primary border border-0 pe-5 ps-5 mt-3 text-center text-white">Select
+                            </button>
+
+
                         </div>
                     </div>
                 </div>
@@ -50,11 +54,13 @@
                     <div class="card">
                         <img src="images/harry kane.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">
+                            <h5 id="harry">
                                 Harry kane
                             </h5>
                             <p class="card-text">56Goals . 120Assist</p>
-                            <a href="#" class="btn btn-primary px-5">Select </a>
+                            <button id="btn-harry"
+                                class="bg-primary border border-0 pe-5 ps-5 mt-3 text-center text-white">Select
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -62,22 +68,27 @@
                     <div class="card">
                         <img src="images/messi.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Messi</h5>
+                            <h5 id="messi">Messi</h5>
                             <p class="card-text">
                                 56Goals . 120Assist
                             </p>
-                            <a href="#" class="btn btn-primary px-5">Select </a>
+                            <button id="btn-messi"
+                                class="bg-primary border border-0 pe-5 ps-5 mt-3 text-center text-white">Select
+                            </button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
 
-                        <div class="card-body bg-dark text-center">
-                            <h5 class="card-title text-white">Selected-V</h5>
-                            <ol>
+                        <div class="card-body bg-dark text-center text-white">
+                            <h5 class="card-title">Selected-V</h5>
+
+                            <ol id="add-name">
 
                             </ol>
+
+
                         </div>
                     </div>
                 </div>
@@ -85,9 +96,11 @@
                     <div class="card">
                         <img src="images/ronaldo.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Ronaldo</h5>
+                            <h5 id="ronaldo">Ronaldo</h5>
                             <p class="card-text">56Goals . 120Assist</p>
-                            <a href="#" class="btn btn-primary px-5">Select </a>
+                            <button id="btn-ronaldo"
+                                class="bg-primary border border-0 pe-5 ps-5 mt-3 text-center text-white">Select
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -95,9 +108,11 @@
                     <div class="card">
                         <img src="images/trent-alexander.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Trent-alexander</h5>
+                            <h5 id="trent">Trent-alexander</h5>
                             <p class="card-text">56Goals . 120Assist</p>
-                            <a href="#" class="btn btn-primary px-5">Select </a>
+                            <button id="btn-trent"
+                                class="bg-primary border border-0 pe-5 ps-5 mt-3 text-center text-white">Select
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -105,9 +120,11 @@
                     <div class="card">
                         <img src="images/Mohamed-Salah - Copy.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Mohamed-Salah</h5>
+                            <h5 id="salah">Mohamed-Salah</h5>
                             <p class="card-text">56Goals . 120Assist</p>
-                            <a href="#" class="btn btn-primary px-5">Select </a>
+                            <button id="btn-salah"
+                                class="bg-primary border border-0 pe-5 ps-5 mt-3 text-center text-white">Select
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -116,49 +133,33 @@
                         <div class="card-body  bg-dark text-center text-white">
                             <h5 class="card-title text-warning">Budget</h5>
                             <div class="d-flex justify-content-around gap-2 mt-4">
-                                <span>Per Player</span> <textarea name="" id="" class="bg-dark text-white" cols="10"
-                                    rows="1"></textarea>
+                                <span>Per Player</span> <textarea name="" id="per-player-value"
+                                    class="bg-dark text-white" cols="10" rows="1"></textarea>
                             </div>
-                            <button id="btn-messi"
+                            <button id="btn"
                                 class="bg-primary border border-0 pe-5 ps-5 mt-3 text-center text-white">Calculate
                             </button>
                             <div class="d-flex justify-content-around gap-2 mt-3">
-                                <p>Player Expenses</p>$<span></span>
+                                <p>Player Expenses</p>$<span id="total-expence"></span>
                             </div>
 
                             <div class="d-flex justify-content-around gap-2 mt-4">
-                                <span>Manager</span> <textarea name="" id="" class="bg-dark text-white" cols="10"
-                                    rows="1"></textarea>
+                                <span>Manager</span> <textarea name="" id="maneger-field" class="bg-dark text-white"
+                                    cols="10" rows="1"></textarea>
                             </div>
                             <div class="d-flex justify-content-around gap-4 mt-4">
-                                <span>Coach</span> <textarea name="" id="" class="bg-dark text-white" cols="10"
-                                    rows="1"></textarea>
+                                <span>Coach</span> <textarea name="" id="coach-field" class="bg-dark text-white"
+                                    cols="10" rows="1"></textarea>
                             </div>
-                            <button id="btn-messi"
+                            <button id="Calculate-total"
                                 class="bg-primary border border-0 pe-4 ps-4 mt-3 text-center text-white">Calculate Total
                             </button>
                             <div class="d-flex justify-content-around gap-2 mt-2">
-                                <p>Total</p>$<span></span>
+                                <p>Total</p>$<span id="sum"></span>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- <div class="col">
-                    <div class="card">
-
-                        <div class="card-body bg-dark text-center">
-                            <h5 class="card-title text-white">Budget</h5>
-                            <div class="d-flex  justify-content-between ">
-                                <p class="card-text text-white">Per Player</p>
-
-                                <textarea class="bg-dark text-white px- py-1" name="" id="" cols="10"
-                                    rows="1"></textarea>
-                            </div>
-                            <button class=" bg-primary text-white px-5 py-1">Calculate</button>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </section>
     </main>
@@ -166,6 +167,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+
+    <script src="js/added.js"></script>
+
+    <script src="js/hiseb.js"></script>
+    <script src="js/utilitize.js"></script>
 </body>
 
 </html>
