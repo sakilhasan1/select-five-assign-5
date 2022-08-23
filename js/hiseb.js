@@ -12,7 +12,7 @@ document.getElementById('Calculate-total').addEventListener('click', function ()
     const manCoAndValueString = manCoAndTotal.innerText;
     const manCoAndValue = parseInt(manCoAndValueString);
 
-
+    // totalValue............
     const perPlayer = document.getElementById('per-player-value');
     const perPlayerValueString = perPlayer.value;
     const perPlayerValue = parseInt(perPlayerValueString);
